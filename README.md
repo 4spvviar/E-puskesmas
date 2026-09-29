@@ -23,34 +23,6 @@ Sebelum memulai menggunakan project ini, pastikan komputer Anda sudah memenuhi s
     <li>Statistik Pengunjung: Admin dapat melihat statistik pengunjung berdasarkan jenis layanan poli dan tanggal, sehingga memudahkan dalam mengambil keputusan dalam mengelola puskesmas</li>
 </ol>
 
-## Installation
-
-Berikut adalah langkah-langkah untuk menginstall dan menjalankan project ini pada komputer Anda:
-<ol>
-<li>Clone repository E-Puskesmas dengan menjalankan perintah berikut pada terminal atau Git Bash:
-<blockquote>git clone https://github.com/ahmadfahrudin/epuskesmas.git</blockquote></li>
-<li>Masuk ke direktori E-Puskesmas yang telah Anda clone dengan menjalankan berikut pada terminal atau Git Bash:</li>
-<blockquote>cd epuskesmas</blockquote>
-<li>Jalankan perintah berikut untuk menginstall seluruh dependency yang dibutuhkan oleh project:
-<blockquote>composer install</blockquote></li>
-<li>Salin file <b>.env.example</b> dan ubah namanya menjadi <b>.env</b> dan atur konfigurasi database pada file tersebut. Project menggunakan nama database <b>epuskesmas</b></li>
-<li>Jalankan perintah berikut untuk menggenerate APP_KEY pada file .env
-<blockquote>php artisan key:generate</blockquote></li>
-<li>Jalankan perintah berikut untuk membuat tabel-tabel pada database
-<blockquote>php artisan migrate</blockquote></li>
-<li>Jalankan perintah berikut untuk menjalankan semua seeder (data pada tabel) yang ada pada project
-<blockquote>php artisan db:seed</blockquote>
-atau Anda dapat menjalankan seeder dengan satu per satu sesuai dengan class pada project
-<blockquote>php artisan db:seed --class=UserSeeder</blockquote>
-<blockquote>php artisan db:seed --class=PoliSeeder</blockquote>
-<blockquote>php artisan db:seed --class=PengunjungSeeder</blockquote></li>
-</ol>
-
-## Usage
-Setelah mengikuti langkag-langkah pada bagian Installation, Anda dapat mengakses project ini pada browser dengan mengunjungi URL atau http://localhost/epuskesmas atau http://localhost:8000 atau sesuaikan port yang Anda gunakan.
-
-Anda dapat melakukan akses dashboard admin dengan mengunjungi http://localhost/epuskesmas/login
-Gunakan email '<b>admin@gmail.com</b>' dan password '<b>password</b>' untuk masuk.
 
 ## Screenshoots
 Tampilan Home Pengunjung<br>
