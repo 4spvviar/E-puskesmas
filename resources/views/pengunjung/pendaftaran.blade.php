@@ -98,8 +98,10 @@
                                 <div class="form-floating">
                                     <select name="poli_id" id="poli_id" class="form-select border-0 @error('nik') is-invalid @enderror" style="height: 55px;" required>
                                         <option selected>Pilih Poli</option>
-                                        @foreach ($polis as $p)
-                                        <option value="{{ $p->id }}">{{ $p->nama }}</option>
+                                        @foreach ($polis as $poli)
+                                        <option value="{{ $poli->id }}" {{ old('poli_id') == $poli->id ? 'selected' : '' }}>
+                                            {{ $poli->nama }}
+                                        </option>
                                         @endforeach
                                     </select>
                                     @error('poli_id')
