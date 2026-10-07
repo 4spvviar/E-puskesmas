@@ -42,10 +42,10 @@ class PengunjungController extends Controller
             'telepon' => 'required|numeric',
             'alamat' => 'required',
             'tgl_kunjung' => 'required|date',
-            'poli_id' => 'required',
+            'poli_id' => 'required|integer|exists:polis,id',
         ]);
 
-        Pengunjung::create($request->all());
+        Pengunjung::create($validated);
 
         
         return redirect()->route('pengunjung.create')->with('success', 'Pendaftaran Berhasil!');
