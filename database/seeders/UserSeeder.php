@@ -28,6 +28,13 @@ class UserSeeder extends Seeder
             ]
         ];
 
+        foreach ($users as $user) {
+            DB::table('users')->updateOrInsert(
+                ['email' => $user['email']],
+                $user
+            );
+        }
+
         User::insert($user);
     }
 }
