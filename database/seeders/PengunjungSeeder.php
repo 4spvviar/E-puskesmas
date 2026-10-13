@@ -19,90 +19,90 @@ class PengunjungSeeder extends Seeder
         $data = [
             [
                 'nik' => '2203304405506601',
-                'nama' => 'Hikmat',
+                'nama' => 'Lionel Messi',
                 'telepon' => '081000111222',
-                'alamat' => 'Salawu, Tasikmalaya',
+                'alamat' => 'Kalikajar, Wonosobo',
                 'tgl_kunjung' => Carbon::now(),
                 'poli_id' => '1'
             ],
 
             [
                 'nik' => '2203304405506602',
-                'nama' => 'Muhammad Rizki',
+                'nama' => 'Cristiano Ronaldo',
                 'telepon' => '08100011133',
-                'alamat' => 'Purbaratu, Tasikmalaya',
+                'alamat' => 'Kertek, Wonosobo',
                 'tgl_kunjung' => Carbon::now()->addDay(),
                 'poli_id' => '4'
             ],
 
             [
                 'nik' => '2203304405506603',
-                'nama' => 'Asep Saepudin',
+                'nama' => 'Neymar Jr',
                 'telepon' => '081000111444',
-                'alamat' => 'Papayan, Tasikmalaya',
+                'alamat' => 'Kalibeber, Wonosobo',
                 'tgl_kunjung' => Carbon::now()->addDay(3),
                 'poli_id' => '3'
             ],
 
             [
                 'nik' => '2203304405506604',
-                'nama' => 'Dedi Supriyadi',
+                'nama' => 'Kylian Mbappe',
                 'telepon' => '081000111555',
-                'alamat' => 'Pamoyanan, Tasikmalaya',
+                'alamat' => 'Kejajar, Wonosobo',
                 'tgl_kunjung' => Carbon::now()->addDay(2),
                 'poli_id' => '6'
             ],
 
             [
                 'nik' => '2203304405506605',
-                'nama' => 'Dedi Arif',
+                'nama' => 'Mohammed Salah',
                 'telepon' => '081000111666',
-                'alamat' => 'Warpeut, Tasikmalaya',
+                'alamat' => 'Selomerto, Wonosobo',
                 'tgl_kunjung' => Carbon::now()->addDay(5),
                 'poli_id' => '8'
             ],
 
             [
                 'nik' => '2203304405506606',
-                'nama' => 'Fajar Nugraha',
+                'nama' => 'Kevin De Bruyne',
                 'telepon' => '081000111666',
-                'alamat' => 'Golacir, Tasikmalaya',
+                'alamat' => 'Garung, Wonosobo',
                 'tgl_kunjung' => Carbon::now()->addDay(5),
                 'poli_id' => '2'
             ],
 
             [
                 'nik' => '2203304405506607',
-                'nama' => 'Anjar',
+                'nama' => 'Virgil van Dijk',
                 'telepon' => '081000111666',
-                'alamat' => 'Rancak, Tasikmalaya',
+                'alamat' => 'Kalibawang, Wonosobo',
                 'tgl_kunjung' => Carbon::now()->addDay(5),
                 'poli_id' => '1'
             ],
 
             [
                 'nik' => '2203304405506608',
-                'nama' => 'Saepuloh',
+                'nama' => 'Robert Lewandowski',
                 'telepon' => '081000111666',
-                'alamat' => 'Sindang Palay, Tasikmalaya',
+                'alamat' => 'Kepil, Wonosobo',
                 'tgl_kunjung' => Carbon::now()->addDay(5),
                 'poli_id' => '2'
             ],
 
             [
                 'nik' => '2203304405506609',
-                'nama' => 'Aep Saepudin',
+                'nama' => 'Sergio Ramos',
                 'telepon' => '081000111666',
-                'alamat' => 'Bojong, Tasikmalaya',
+                'alamat' => 'Leksono, Wonosobo',
                 'tgl_kunjung' => Carbon::now()->addDay(5),
                 'poli_id' => '8'
             ],
 
             [
                 'nik' => '2203304405506610',
-                'nama' => 'Jana Saputra',
+                'nama' => 'Manuel Neuer',
                 'telepon' => '081000111666',
-                'alamat' => 'Babakan, Tasikmalaya',
+                'alamat' => 'Sapuran, Wonosobo',
                 'tgl_kunjung' => Carbon::now()->addDay(5),
                 'poli_id' => '4'
             ]
