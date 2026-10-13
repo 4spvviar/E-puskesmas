@@ -39,16 +39,3 @@ Tampilan Statistik Pengunjung Berdasarkan Jenis Layanan Poli dan Tanggal<br>
 
 Tampilan Layanan Admin<br>
 <img src="https://github.com/ahmadfahrudin/img/blob/master/ss-epuskesmas/ss5%20-%20admin%20poli.png?raw=true" alt="tampilan layanan poli epuskesmas" title="Tampilan Layanan Poli Admin" height="400">
-
-## Credits
-E-Puskesmas dikembangkan oleh Ahmad Fahrudin. Jika Anda menemukan bug atau ingin memberikan saran untuk project ini, silahkan buat issue pada repository atau menghubungi lewat
-
-Email: ahmadfahrudin.id@gmail.com<br>
-Linkedin: https://www.linkedin.com/in/ahmadfahrudin08
-
-Tempalte yang digunakan dalam project yaitu https://htmlcodex.com/clinic-website-template/ dan https://htmlcodex.com/bootstrap-admin-template-free/
-
-## License
-
-Copyright &copy; 2023 Ahmad Fahrudin<br>
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
