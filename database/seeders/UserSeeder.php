@@ -2,39 +2,37 @@
 
 namespace Database\Seeders;
 
-use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Hash;
-use App\Models\User;
 
 class UserSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
     public function run(): void
     {
-        $user = [
+        $users = [
             [
                 'name' => 'Admin',
                 'email' => 'admin@gmail.com',
-                'password' => Hash::make('password')
+                'password' => Hash::make('password'),
             ],
             [
                 'name' => 'Admin Dua',
                 'email' => 'admin2@gmail.com',
-                'password' => Hash::make('123456')
-            ]
+                'password' => Hash::make('123456'),
+            ],
         ];
 
         foreach ($users as $user) {
             DB::table('users')->updateOrInsert(
                 ['email' => $user['email']],
-                $user
+                [
+                    'name' => $user['name'],
+                    'password' => $user['password'],
+                    'updated_at' => now(),
+                    'created_at' => now(),
+                ]
             );
         }
-
-        User::insert($user);
     }
 }
